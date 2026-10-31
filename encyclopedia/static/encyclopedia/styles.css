@@ -1,0 +1,6 @@
+body { padding: 0; margin: 0; }
+.row { margin: 0; }
+.sidebar { background: #eee; min-height: 100vh; padding: 20px; }
+.main { padding: 20px; }
+.search { width: 100%; margin-bottom: 10px; }
+textarea, input[name=title] { width: 100%; }
