@@ -1,0 +1,19 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}All Pages{% endblock %}
+
+{% block body %}
+    <h1>All Pages</h1>
+
+    {% if entries %}
+        <ul class="entry-list">
+            {% for entry in entries %}
+                <li>
+                    <a href="{% url 'encyclopedia:entry' entry %}">{{ entry }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>There are no encyclopedia entries yet. <a href="{% url 'encyclopedia:new' %}">Create one!</a></p>
+    {% endif %}
+{% endblock %}
