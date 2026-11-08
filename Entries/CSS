@@ -1,0 +1,43 @@
+CSS
+
+CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of a document written in HTML. It controls layout, colors, typography, spacing, and animations, letting the same markup be rendered differently for screens, print, and other media.
+
+How CSS Works
+
+A stylesheet is made of rules. Each rule pairs a selector with a set of declarations:
+
+[data-radix-scroll-area-viewport]{scrollbar-width:none;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;}[data-radix-scroll-area-viewport]::-webkit-scrollbar{display:none}
+
+h1 {
+
+    color: #2f6f4f;
+
+    font-size: 2rem;
+
+}
+
+Here h1 is the selector and the two lines inside the braces are declarations. Styles can be applied inline, embedded in a <style> element, or linked as an external .css file, which is generally preferred because it keeps content and presentation separate.
+
+The Cascade
+
+The "cascading" in the name refers to how conflicting rules are resolved. When more than one rule targets the same element, the browser weighs specificity, source order, and inheritance. Author styles normally beat browser defaults, and !important declarations override ordinary ones.
+
+Layout
+
+Modern CSS offers several layout systems:
+
+- Normal flow, the default block and inline behavior
+
+- Flexbox, for one-dimensional alignment and distribution
+
+- Grid, for two-dimensional layouts
+
+- Positioning, for taking elements out of normal flow
+
+Responsive design uses media queries to adapt a layout to different viewport sizes, often following a mobile-first approach.
+
+See Also
+
+- HTML
+
+- Django

@@ -1,0 +1,53 @@
+HTML
+
+HTML (HyperText Markup Language) is the standard language for describing the structure of web pages. It uses elements, written with tags, to mark up headings, paragraphs, lists, links, images, forms, and more.
+
+Elements and Attributes
+
+An element generally consists of an opening tag, content, and a closing tag:
+
+[data-radix-scroll-area-viewport]{scrollbar-width:none;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;}[data-radix-scroll-area-viewport]::-webkit-scrollbar{display:none}
+
+<p class="intro">Hello, world!</p>
+
+Attributes such as class, id, and href provide additional information about an element. Some elements, like <img> and <br>, are void elements and have no closing tag.
+
+Document Structure
+
+A complete HTML document typically includes a doctype, a <head> containing metadata, and a <body> containing the visible content:
+
+[data-radix-scroll-area-viewport]{scrollbar-width:none;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;}[data-radix-scroll-area-viewport]::-webkit-scrollbar{display:none}
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Example</title>
+
+</head>
+
+<body>
+
+    <h1>Example Page</h1>
+
+</body>
+
+</html>
+
+Semantics
+
+Semantic elements such as <header>, <nav>, <main>, <article>, and <footer> describe the meaning of content rather than only its appearance. Semantic markup improves accessibility and helps search engines understand a page.
+
+Styling and Behavior
+
+HTML provides structure, CSS provides presentation, and JavaScript provides interactivity. Keeping these concerns separate generally leads to more maintainable sites.
+
+See Also
+
+- CSS
+
+- Django

@@ -1,0 +1,31 @@
+Git
+
+Git is a distributed version control system created by Linus Torvalds in 2005. It tracks changes to files over time, allowing developers to review history, experiment on branches, and collaborate without a central server.
+
+Repositories and Commits
+
+A Git repository is a directory whose history Git records. A commit is an immutable snapshot of the project at a point in time, identified by a cryptographic hash. Each commit points to its parent, forming a directed acyclic graph of history.
+
+The Three Areas
+
+Git organizes work into three conceptual areas:
+
+- The working tree, where files are edited
+
+- The staging area (or index), where changes are prepared for a commit
+
+- The repository, where committed snapshots live
+
+The command git add moves changes into the staging area, and git commit records them.
+
+Branching
+
+Branches in Git are lightweight pointers to commits. Creating a branch is nearly instantaneous, which encourages small, focused lines of development. Merging combines histories; when the same lines have changed in both branches, a merge conflict must be resolved manually.
+
+Working with Remotes
+
+A remote is another copy of the repository, often hosted on a service such as GitHub. Commands like git push, git pull, and git fetch synchronize work between local and remote repositories.
+
+See Also
+
+- Python

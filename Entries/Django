@@ -1,0 +1,33 @@
+Django
+
+Django is a high-level, open-source web framework written in Python. It follows the model-template-view architectural pattern and is designed to help developers build secure, maintainable websites quickly. Django ships with an ORM, an administrative interface, authentication, form handling, and protection against many common web vulnerabilities.
+
+Core Components
+
+A typical Django project is organized into apps, each responsible for a coherent slice of functionality. Within an app you will usually find:
+
+- models.py, which defines database tables as Python classes
+
+- views.py, which contains the logic that handles requests and returns responses
+
+- urls.py, which maps URL patterns to views
+
+- templates/, which holds HTML templates rendered with the Django template language
+
+The Request Cycle
+
+When a request arrives, Django resolves it against the URL configuration. The matching view runs, optionally querying the database through the ORM, and returns an HTTP response, often by rendering a template. Middleware can inspect or modify requests and responses at several points along the way.
+
+Templates
+
+Django templates use {{ variable }} for output and {% tag %} for logic such as loops and conditionals. By default, substituted values are HTML-escaped; the safe filter marks a string as trusted HTML.
+
+Why It Is Popular
+
+Django's "batteries included" philosophy means many features that would otherwise require third-party libraries are available out of the box. Its emphasis on explicit configuration and sensible defaults makes it a common choice for everything from small prototypes to large production systems.
+
+See Also
+
+- Python
+
+- HTML
